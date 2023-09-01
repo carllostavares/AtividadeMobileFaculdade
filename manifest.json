@@ -2,7 +2,7 @@
   "name": "FamaBarbearia",
   "short_name": "FamaBarbearia",
   "description": "Um Aplicativo Web para consultar serviços e solicitar orçamento para cortes.",
-  "start_url": "https://master--magnificent-gumption-5eb824.netlify.app/",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#212529",
   "theme_color": "#3498db",
