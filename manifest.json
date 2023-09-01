@@ -1,0 +1,22 @@
+{
+  "background_color": "#212529",
+  "description": "Um Aplicativo Web para consultar serviços e solicitar orçamento para cortes.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "FamaBarbearia",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "FamaBarbearia",
+  "start_url": "/",
+  "theme_color": "#797272",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "assets/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": [],
+  "id": "FB"
+}
