@@ -1,0 +1,22 @@
+{
+  "name": "PWA Teste",
+  "short_name": "PWA Teste",
+  "icons": [
+    
+    {
+      "src": "assets/img/playstore.png",
+      "sizes":  "512x512",
+      "type": "image/png",
+	  "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/appstore.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#31506F",
+  "theme_color": "#4D5360"
+}
