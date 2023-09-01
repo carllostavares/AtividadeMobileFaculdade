@@ -29,7 +29,8 @@
     {
       "src": "assets/img/icons/Applcons/android/mipmap-xxxhdpi/ic_launcher.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "assets/img/icons/Applcons/Assets.xcassets/AppIcon.appiconset/_/29.png",
@@ -103,7 +104,7 @@
   "related_applications": [],
   "permissions": [],
   "serviceworker": {
-    "src": "/service-worker.js",
+    "src": "service-worker.js",
     "scope": "/",
     "update_via_cache": "none"
   }
