@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
+        <link rel="manifest" href="/manifest.json">
+
         <title>Fama Barbearia</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
@@ -601,5 +603,23 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        
+
+        <script>
+            let newWorker;
+            if ('serviceWorker' in navigator) {
+              navigator.serviceWorker.register('/service-worker').then(reg => {
+                reg.addEventListener('updatefound', () => {
+                  newWorker = reg.installing;
+                });
+              });
+              let refreshing;
+              navigator.serviceWorker.addEventListener('controllerchange', function () {
+                if (refreshing) return;
+                window.location.reload();
+                refreshing = true;
+              });
+            }
+          </script>
     </body>
 </html>
