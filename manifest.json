@@ -1,6 +1,6 @@
 {
-  "name": "PWA Teste",
-  "short_name": "PWA Teste",
+  "name": "Fama Barbearia",
+  "short_name": "Fama Barbearia",
   "icons": [
     
     {
@@ -11,6 +11,11 @@
     },
     {
       "src": "assets/img/appstore.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/Assets.xcassets/AppIcon.appiconset/_/29.png",
       "sizes": "1024x1024",
       "type": "image/png"
     }
