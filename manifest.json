@@ -15,8 +15,30 @@
       "type": "image/png"
     },
     {
-      "src": "assets/img/Assets.xcassets/AppIcon.appiconset/_/29.png",
-      "sizes": "29x29",
+      "src": "assets/img/Assets.xcassets/AppIcon.appiconset/_/120.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/android/mipmap-xxhdpi/icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/android/mipmap-xxhdpi/icon.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }
+    ,
+    {
+      "src": "assets/img/android/mipmap-xxhdpi/icon.png",
+      "sizes": "167x167",
+      "type": "image/png"
+    }
+    ,
+    {
+      "src": "assets/img/Assets.xcassets/AppIcon.appiconset/_/180.png",
+      "sizes": "180x180",
       "type": "image/png"
     }
   ],
