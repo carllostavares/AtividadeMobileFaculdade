@@ -103,6 +103,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
 }
 
 hr {
@@ -11314,4 +11315,17 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.video {
+  max-width: 100%; /* Para garantir que o vídeo não fique maior que a largura do dispositivo */
+  text-align: center; /* Centralizar horizontalmente */
+}
+
+/* Estilize o iframe de vídeo */
+.video iframe {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 70%; /* Ocupar 100% da largura do contêiner pai */
+  max-height: 600px; /* Defina uma altura máxima, ajuste conforme necessário */
 }
